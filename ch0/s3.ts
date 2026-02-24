@@ -14,17 +14,22 @@ function getStrLength(str: string): number {
 }
 
 // r1
+// 함수의매개변수및반환값타입지정:입력값,출력값제한해서함수안정성높임
+// 매개변수name(string)입력받아인사말(string)반환
 function greeting1(name: string): string {
     return `Hello,${name}!`;
 }
+// 숫자(number)받아합계(number)반환
 function sum1(num1: number, num2: number): number {
     return num1 + num2;
 }
+// 문자열(string)받아값(number)반환
 function getStrLength1(str: string): number {
     return str.length;
 }
 
 // r2
+// 함수의매개변수와반환값의타입지정
 function greeting2(name: string): string {
     return `Hello,${name}!`;
 }
@@ -36,6 +41,7 @@ function getStrLength2(str: string): number {
 }
 
 // r3
+// 함수매개변수와반환값타입지정
 function greeting3(name: string): string {
     return `Hello,${name}!`;
 }
@@ -47,6 +53,7 @@ function getStrLength3(str: string): number {
 }
 
 // r4
+// 함수매개변수와반환값타입지정
 function greeting4(name: string): string {
     return `Hello,${name}`;
 }
@@ -58,6 +65,7 @@ function getStrLength4(str: string): number {
 }
 
 // r5
+// 함수매개변수와반환값타입지정
 function greeting5(name: string): string {
     return `Hello,${name}`;
 }
